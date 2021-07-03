@@ -7,9 +7,8 @@ public class PhoneFactory {
 			return new AndroidPhone();
 		} else if (phoneName.equals("Iphone")) {
 			return new Iphone();
-		} else if (phoneName.equals("Windows")) {
+		} else {
 			return new Windows();
 		}
-		return null;
 	}
 }
